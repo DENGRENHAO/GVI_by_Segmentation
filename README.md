@@ -5,16 +5,9 @@
 給定一個來源圖檔，將圖檔進行image segmentation，輸出合成圖、得出GVI, SVF, BVF三種scores並輸出至.csv檔。
 
 ## Prerequisite
-
-```
-git clone https://github.com/DENGRENHAO/gvi_by_segmentation.git
-```
-```
-cd gvi_by_segmentation
-```
-```
-bash setup.sh
-```
+1. `git clone https://github.com/DENGRENHAO/GVI_by_Segmentation.git`
+2. `cd .\GVI_by_Segmentation\`
+3. run setup.sh
 
 ## Usage
 

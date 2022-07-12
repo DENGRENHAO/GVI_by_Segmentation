@@ -8,6 +8,7 @@
 1. `git clone https://github.com/DENGRENHAO/GVI_by_Segmentation.git`
 2. `cd .\GVI_by_Segmentation\`
 3. run setup.sh
+4. `curl https://download.openmmlab.com/mmsegmentation/v0.5/pspnet/pspnet_r50-d8_512x1024_40k_cityscapes/pspnet_r50-d8_512x1024_40k_cityscapes_20200605_003338-2966598c.pth`
 
 ## Usage
 

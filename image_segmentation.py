@@ -28,7 +28,7 @@ def show_plot(model,
 
 def get_scores_and_plot(img):
     config_file = 'mmsegmentation/configs/pspnet/pspnet_r50-d8_512x1024_40k_cityscapes.py'
-    checkpoint_file = 'mmsegmentation/checkpoints/pspnet_r50-d8_512x1024_40k_cityscapes_20200605_003338-2966598c.pth'
+    checkpoint_file = 'pspnet_r50-d8_512x1024_40k_cityscapes_20200605_003338-2966598c.pth'
     config = mmcv.Config.fromfile(config_file)
     config["norm_cfg"]["type"] = "BN"
     config["model"]["backbone"]["norm_cfg"]["type"] = "BN"
